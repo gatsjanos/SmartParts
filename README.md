@@ -12,3 +12,6 @@ A modulok lehetnek relék, kapcsolók, ajtónyítás figyelők, fény/hang érz�
 
 Ezek a modulok nem csak szabályozhatók, de bemenetként is funkcionálnak, így képesek eseményeket kiváltani a szerveren,
 illetve állapotuk lekérdezhető. Mindez megvalósítható user scriptek segítségével.
+
+
+Windowson tesztelve, kb. fut linuxon is.
