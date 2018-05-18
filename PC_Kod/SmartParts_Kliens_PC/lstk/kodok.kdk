@@ -1,0 +1,304 @@
+1
+<fejléc>:Egyszerû 1 Be:Nyitva("Bx");
+//EGYSZERU_MUVELETTEL_LETREHOZVA
+Bekapcs("A0");
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:Idõteszt:Ütemez(2015,-1,-1,-1,-1,-1,30);
+Amíg(Nyitva("Be1"))
+{
+	Ismételd(2)
+	{
+		Ismételd(3)
+		{
+			Ismételd(10)
+			{
+				Várj(1000);
+			 	KonzolÍr("Eltelt_egy_másodperc");
+			}
+			KonzolÍr("========Eltelt_10_másodperc");
+		}
+		KonzolÍr("========================Eltelt_30_másodperc");
+	}
+	KonzolÍr("================================================Eltelt_egy_perc");
+}
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:EmailX:Ütemez(-1,-1,-1,-1,-1,-1,30);
+Ha(Perc%2 == 0)
+{
+	EmailKüld("gatsjanos@gmail.com",
+			"Tárgy" + Gyök(3,8),
+			
+			"\"Szélén idézõjel!\"\n\n"+
+			"2*2%3 = " + 2*2%3 + "\n\n"+
+			"Év: " + Év + "\n" +
+			"Hónap: " + Hónap + "\n" +
+			"HónapNapja: " + HónapNapja + "\n" +
+			"HétNapja: " + HétNapja + "\n" +
+			"Óra: " + Óra + "\n" +
+			"Perc: " + Perc + "\n" +
+			"Másodperc: " + Másodperc + "\n"
+	);
+}
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:TESZT Változók:Ütemez(-1,-1,-1,-1,3,12,-1);
+Ismételd(Gyök(3,125),AA)
+{
+	KonzolÍr("ISM: " + AA*2);
+}
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:TESZT Ciklus:Ütemez(2015,-1,-1,-1,-1,-1,30);
+Ismételd(5, Elso)
+{
+	KonzolÍr("=====KÖZÉPSÕ");
+	Ismételd(Elso, Masodik)
+	{
+		Ismételd(Gyök(3, 8), Harmadik)
+		{
+			//KonzolÍr("\\/%!+\"'''?;.:-*)))({))}}{(}}}}}aaaaaa" + "bbbbbbb");
+			KonzolÍr("Elsõ, Második, Harmadik: " +Elso + Masodik + Harmadik);
+			Törd;
+			Tovább;
+			KonzolÍr("Elsõ + Második + Harmadik: " + (Elso + Masodik + Harmadik));
+			Várj(500);
+		}
+		//KonzolÍr("Fent");
+	}
+}
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:TESZTReleVillogtato:Ütemez(2015,-1,-1,-1,-1,-1,30);
+Amíg(Igaz)
+{
+	Bekapcs("lx");
+	Várj(1500);
+	Kikapcs("lx");
+	Várj(1500);
+}
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:SzínkódTeszt:Zárva("Be3");
+szám: alma;
+alma = 2;
+Amíg(Zárva("Be3"))
+{
+	Ha(5 > 1 & 12 < 130 & Gyök(32,5) = 2)//Komment...
+	{
+		Ismételd(3, ism)
+		{
+			Bekapcs("A0");
+			Várj (500);
+			Kikapcs("A0");
+			KonzolÍr(ism*alma);
+			Várj (500);
+
+			Ha(Zárva("Be1"))
+			{
+				Tovább;
+			}
+			Törd;
+		}
+	}	
+	
+	Ha(Nyitva("Be1"))
+	{
+		Ha(Másodperc % 10 == 5)
+		{
+			EmailKüld("gatsjanos@gmail.com","Üzenet tárgya","Üzenet\nszövege");
+		}
+		Egyébként
+		{
+			KonzolÍr("Nem küldött E-mailt.");
+		}
+	}
+
+	Kilép;
+}
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:for:Ütemez(2015,-1,-1,-1,-1,-1,30);
+szám: alma, körte, béla, g;
+alma = 1;
+béla=10;
+Ismételd(béla, elso)
+{
+	elso = elso+2;
+	KonzolÍr("Változó: " + elso);
+	
+	alma = alma + alma;
+	körte = Hatvány(alma, 2);
+	
+	KonzolÍr("alma: " + alma);
+	KonzolÍr("körte: " + körte);
+	
+	béla = béla+1;
+}
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:Végtelen Ciklus:Ütemez(2015,-1,-1,-1,-1,-1,-1);
+Amíg(Igaz)
+{
+	Várj(1000);
+}
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:FolyKezelésTeszt:Ütemez(2015,-1,-1,-1,-1,-1,30);
+Amíg(Igaz)
+{
+	Ha(FolyamatFut("Végtelen Ciklus"))
+	{
+		FolyamatLeállít("Végtelen Ciklus");
+		KonzolÍr("------------------------------------------------------Leállítva");
+	}
+	Egyébként
+	{
+		FolyamatIndít("Végtelen Ciklus");  
+		KonzolÍr("------------------------------------------------------Indítva");
+	}
+	Várj(500);
+}
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:Összetett String paraméter teszt:Nyitva("Be3");
+//KonzolÍr("ABC\"" + Nyitva("+-Be ki&/") + "\"DEF");
+//KonzolÍr("ABC\"" + Gyök(3, 8) + "\"DEF");
+Ha(Gyök(Gyök(3,27), 5+Gyök(2,Gyök(2,81))) != 2)
+{
+	KonzolÍr(")))}}}Gyök(Gyök(3,27), 5+Gyök(2,Gyök(2,81))) értéke = " + Gyök(Gyök(3,27), 5+Gyök(2,Gyök(2,81))));
+
+	KonzolÍr("((3*2) + 1)/3.6 = " + ((3*2) + 1)/3.6);
+}
+Egyébként
+{
+	KonzolÍr("))))))}}}}}------");	
+	KonzolÍr("))))))}}}}}------");	
+}
+
+//KonzolÍr("Számok sorban: " + (1.11 + "a" + 2.11) + " " + (3.11 + 4.11));
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:FolyKezelésTeszt2:Nyitva("Be3");
+szám:a;
+a = 3;
+Amíg(Igaz)
+{
+	KonzolÍr(a);
+	Ismételd(10)
+	{
+		Várj(300);
+		KonzolÍr("Vár");
+	}
+	//FolyamatSzinkronVégrehajt("EgyszerKiír");
+	FolyamatIndít("EgyszerKiír");
+	Várj(300);
+	++ a;
+}
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:StatuszTeszt:Nyitva("Be3");
+Amíg(Igaz)
+{
+	Várj(1000);
+}
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:FolyKezelésTeszt3:Ütemez(2015,-1,-1,-1,-1,-1,30);
+FolyamatIndít("FolyKezelésTeszt3Segéd");
+Amíg(Igaz)
+{
+	Ha(FolyamatFut("StatuszTeszt"))
+	{
+		Ha(FolyamatSzünetel("StatuszTeszt"))
+		{
+			KonzolÍr("------------------------------------------SZÜNETEL!");
+		}
+		Egyébként
+		{
+			KonzolÍr("------------------------------------------FUT!");
+		}
+	}
+	Egyébként
+	{
+		KonzolÍr("------------------------------------------NEM FUT!");
+	}
+	Várj(300);
+}
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:FolyKezelésTeszt3Segéd:Nyitva("Be3");
+Amíg(Igaz)
+{
+	Várj(700);
+	Ha(FolyamatSzünetel("StatuszTeszt"))
+	{
+		FolyamatFolytat("StatuszTeszt");
+	}
+	Egyébként
+	{
+		FolyamatFelfüggeszt("StatuszTeszt");
+	}
+}
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:Változók:Ütemez(2015,-1,-1,-1,-1,-1,30);
+szám: a = 2.5, b =- 24, cc = 3.45;
+
+a = 1;
+b = 2;
+cc = 3;
+
+KonzolÍr("a = " + a);
+KonzolÍr("b = " + b);
+KonzolÍr("cc = " + cc);
+
+cc =(a + b) * 2;
+KonzolÍr("cc = " + cc);
+
+cc += 1;
+KonzolÍr("cc = " + cc);
+
+cc -= 0.5;
+KonzolÍr("cc = " + cc);
+
+cc *= 2;
+KonzolÍr("cc = " + cc);
+
+cc /= 0.1;
+KonzolÍr("cc = " + cc);
+
+cc %= 125;
+KonzolÍr("cc = " + cc);
+
+cc += a * b;
+KonzolÍr("cc = " + cc);
+
+--cc;
+KonzolÍr("cc = " + cc);
+--cc;
+KonzolÍr("cc = " + cc);
+
+++cc;
+KonzolÍr("cc = " + cc);
+++cc;
+KonzolÍr("cc = " + cc);
+++cc;
+KonzolÍr("cc = " + cc);
+++cc;
+KonzolÍr("cc = " + cc);
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:NegatívSzámTeszt:Ütemez(2015,-1,-1,-1,-1,-1,30);
+KonzolÍr("Ez itt: " + (-1-+3-+2));
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:Uff:Nyitva("Be3");
+Ha(igaz)
+{KonzolÍr("Fasza");}
+Egyébként
+{KonzolÍr("Hazudik");}
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:Egyszerû Email:Nyitva("Be1");
+//EGYSZERU_MUVELETTEL_LETREHOZVA
+EmailKüld("gatsjanos@gmail.com","SmartParts Email","Ez egy egyszerû mûvelettel létrehozott e-mail.");
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:Egyszerû 1 Ki:Zárva("Bx");
+//EGYSZERU_MUVELETTEL_LETREHOZVA
+Kikapcs("A0");
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc
+<fejléc>:KilencszerKiír:Ütemez(2015,-1,-1,-1,-1,-1,-1);
+KonzolÍr("--------------------------------------KILENCSZER KIÍR");
+
+a = 115;
+
+Ismételd(9)
+{
+	Várj(300);
+	KonzolÍr("--------------------------------------Fut a belsõ");
+}
+<>#&@[]~¡^¢°²`ÿ´//lezáró karakterlánc

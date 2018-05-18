@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Snippetek"/>
+	<classpathentry kind="src" path="Tree"/>
+	<classpathentry kind="src" path="Display"/>
+	<classpathentry kind="src" path="DragMath"/>
+	<classpathentry kind="src" path="enum"/>
+	<classpathentry kind="src" path="eszk"/>
+	<classpathentry kind="src" path="GUI"/>
+	<classpathentry kind="src" path="komm"/>
+	<classpathentry kind="src" path="formats"/>
+	<classpathentry kind="src" path="org"/>
+	<classpathentry kind="src" path="Output"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="3rd party/ApacheCommons/commons-lang3-3.5.jar" sourcepath="3rd party/ApacheCommons/commons-lang3-3.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/SmartParts_Kliens_PC/3rd%20party/ApacheCommons/commons-lang3-3.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="3rd party/jdom/jdom-2.0.6.jar" sourcepath="3rd party/jdom/jdom-2.0.6-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/SmartParts_Kliens_PC/3rd%20party/jdom/jdom-2.0.6-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="3rd party/DragMath/jep/jep.jar"/>
+	<classpathentry kind="lib" path="3rd party/org-jdesktop-layout.jar"/>
+	<classpathentry kind="lib" path="3rd party/org.eclipse.jface-3.6.0.jar"/>
+	<classpathentry kind="lib" path="3rd party/RSyntaxTextArea/MODOSITOTTBuildEclipsebol/rsyntaxtextarea-2.6.1-MODOSITOTT.jar" sourcepath="3rd party/RSyntaxTextArea/MODOSITOTTBuildEclipsebol/rsyntaxtextarea-2.6.1-SNAPSHOT-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/SmartParts_Kliens_PC/3rd%20party/RSyntaxTextArea/MODOSITOTTBuildEclipsebol/rsyntaxtextarea-2.6.1-SNAPSHOT-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="3rd party/swing-layout-1.0.4.jar"/>
+	<classpathentry kind="lib" path="3rd party/org.eclipse.equinox.common.source_3.9.0.v20170207-1454/org.eclipse.equinox.common_3.9.0.v20170207-1454.jar" sourcepath="3rd party/org.eclipse.equinox.common.source_3.9.0.v20170207-1454/org.eclipse.equinox.common.source_3.9.0.v20170207-1454.jar"/>
+	<classpathentry kind="lib" path="3rd party/swt/swt.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

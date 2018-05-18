@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\Users\gatsj\Documents\git\SmartParts\PC Kód\SmartParts_Szerver"/>
+		<item value="D:\Users\gatsj\Documents\git\SmartParts\PC Kód\SmartParts_Kliens_PC"/>
+		<item value="D:\Users\gatsj\Desktop\SmartPartso\PC Kód\SmartParts_Kliens_PC"/>
+		<item value="D:\Users\gatsj\Desktop\SmartParts\PC Kód\SmartParts_Kliens_PC"/>
+		<item value="D:\Users\gatsj\Desktop\SmartParts\PC Kód\SmartParts_Szerver"/>
+	</list>
+	<section name="ResourceNavigator">
+		<item value="Aggregate for window 1525784300326" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item value="D:\Users\gatsj\Documents\git\SmartParts\PC Kód\SmartParts_Szerver" key="OUTSIDE_LOCATION"/>
+	</section>
+</section>

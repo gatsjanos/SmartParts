@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="3rd party/DragMath/lib/jep/src"/>
+	<classpathentry kind="src" path="3rd party/DragMath/src"/>
+	<classpathentry kind="src" path="SmartParts_Kliens_PC/DragMath"/>
+	<classpathentry kind="src" path="SmartParts_Kliens_PC/enum"/>
+	<classpathentry kind="src" path="SmartParts_Kliens_PC/eszk"/>
+	<classpathentry kind="src" path="SmartParts_Kliens_PC/GUI"/>
+	<classpathentry kind="src" path="SmartParts_Kliens_PC/komm"/>
+	<classpathentry kind="src" path="SmartParts_Kliens_PC/Snippetek"/>
+	<classpathentry kind="src" path="SmartParts_Kliens_PC/src"/>
+	<classpathentry kind="src" path="SmartParts_Szerver/AVRkomm"/>
+	<classpathentry kind="src" path="SmartParts_Szerver/enum"/>
+	<classpathentry kind="src" path="SmartParts_Szerver/eszk"/>
+	<classpathentry kind="src" path="SmartParts_Szerver/komm"/>
+	<classpathentry kind="src" path="SmartParts_Szerver/src"/>
+	<classpathentry kind="src" path="SmartParts_Szerver/VM"/>
+	<classpathentry kind="lib" path="3rd party/DragMath/jdesktop/swing-layout.jar"/>
+	<classpathentry kind="lib" path="3rd party/DragMath/jdom/jdom-2.0.6-contrib.jar"/>
+	<classpathentry kind="lib" path="3rd party/DragMath/jdom/jdom-2.0.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="3rd party/DragMath/jdom/jdom-2.0.6-junit.jar"/>
+	<classpathentry kind="lib" path="3rd party/DragMath/jdom/jdom-2.0.6-sources.jar"/>
+	<classpathentry kind="lib" path="3rd party/DragMath/jdom/jdom-2.0.6.jar"/>
+	<classpathentry kind="lib" path="3rd party/DragMath/jdom/lib/jaxen-1.1.6.jar"/>
+	<classpathentry kind="lib" path="3rd party/DragMath/jdom/lib/xalan/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="3rd party/DragMath/jdom/lib/xalan/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="3rd party/DragMath/jdom/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="3rd party/DragMath/jdom/lib/xml-apis.jar"/>
+	<classpathentry kind="lib" path="3rd party/DragMath/jep/jep.jar"/>
+	<classpathentry kind="lib" path="3rd party/DragMath/lib/AbsoluteLayout.jar"/>
+	<classpathentry kind="lib" path="3rd party/DragMath/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="3rd party/DragMath/lib/JEP.jar"/>
+	<classpathentry kind="lib" path="3rd party/DragMath/lib/swing-layout-1.0.jar"/>
+	<classpathentry kind="lib" path="3rd party/JavaMail/mail.jar"/>
+	<classpathentry kind="lib" path="3rd party/JavaSimpleSerialConnector/jssc-2.8.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="3rd party/JavaSimpleSerialConnector/jssc-2.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="3rd party/JavaSimpleSerialConnector/jssc-2.8.0.jar"/>
+	<classpathentry kind="lib" path="3rd party/RSyntaxTextArea/MODOSITOTTBuildEclipsebol/rsyntaxtextarea-2.6.1-MODOSITOTT.jar"/>
+	<classpathentry kind="lib" path="3rd party/RSyntaxTextArea/MODOSITOTTBuildEclipsebol/rsyntaxtextarea-2.6.1-SNAPSHOT-javadoc.jar"/>
+	<classpathentry kind="lib" path="3rd party/RSyntaxTextArea/MODOSITOTTBuildEclipsebol/rsyntaxtextarea-2.6.1-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="lib" path="SmartParts_Szerver/smpsrv.jar"/>
+	<classpathentry kind="output" path="3rd party/DragMath/bin"/>
+</classpath>

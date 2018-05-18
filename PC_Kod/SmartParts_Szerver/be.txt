@@ -1,0 +1,23 @@
+<fejléc>:"Név":"esemény";
+Ismételd(3)
+{
+    //Ha(!(Nyitva(Be1)|(Nyitva(Be2)|Nyitva(Be3))))
+    //{
+	//Bekapcs(R1);// villogtatás
+	//Várj(500);
+	//Kikapcs(R1);
+	//Várj(500);
+    //}
+    
+    Ha(Perc != Perc+1)
+    	Bekapcs(aaa);
+    Várj(200);
+	//Amíg(Nyitva(Be1))
+	//{
+		//Ha(Másodperc%2=1)
+		//	Bekapcs(Páratlan);
+			
+		//Amíg(Másodperc %2 = 1)
+		//{Várj(100);}
+	//}
+}
