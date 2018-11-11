@@ -5,7 +5,7 @@ PC-ről, RF-fel elért modulok szabályzása, user scriptek alapján. Relé modu
 Egy java server fut egy PC-n, amit a kliens UDP broadcasting segítségével megtalál, és kapcsolódik hozzá.
 
 A kliensben írhatunk scripteket, melyeket a server futtat eseményvezérelten, időzítve, vagy felhasználói indításra.
-Ezek a scriptek a szerveren egy VM-en futnak, ami segítségével elérnek egy, a PC-re USB-vel csatlakoztatott eszközt,
+Ezek a scriptek a szerveren egy erre a célra fejlesztett VM-en futnak, ami segítségével elérnek egy, a PC-re USB-vel csatlakoztatott eszközt,
 mely RF segítségével további modulokkal kommunikál.
 
 A modulok lehetnek relék, kapcsolók, ajtónyítás figyelők, fény/hang érzékelők, stb...
